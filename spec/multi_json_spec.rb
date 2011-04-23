@@ -35,7 +35,7 @@ describe "MultiJson" do
     end
   end
 
-  %w(json_gem json_pure ok_json yajl).each do |engine|
+  %w(json_gem json_pure ok_json yajl json_jruby).each do |engine|
     context engine do
       before do
         begin
